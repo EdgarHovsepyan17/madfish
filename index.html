@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="start">
+        <div class="lets-container">
+            <div class="layer"></div>
+            <div class="btns">
+                <button class="startBtn">LET'S START</button>
+                <button class="settingsBtn">
+                    <img class="settingsBtn__img" src="images/settingsIcon.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="settings hide">
+            <h2 class="settings__h2">Rules of the game</h2>
+            <p class="settings__p">
+                You must have enough Points to eat different fish.
+            </p>
+
+            <div class="settings__points">
+                <p class="settings__points__p">You must have this many points to eat</p>
+                <p class="settings__points__p">Images of fish</p>
+                <p class="settings__points__p">Eating them will give you so many points</p>
+            </div>
+            
+            <div class="fish">
+                <p>  0</p>
+                <img src="images/fish1right.png" alt="">
+                <p>5</p>
+            </div>
+
+            <div class="fish">
+                <p>25</p>
+                <img src="images/fish2right.png" alt="">
+                <p>10</p>
+            </div>
+
+            <div class="fish">
+                <p>75</p>
+                <img src="images/fish3right.png" alt="">
+                <p>25</p>
+            </div>
+
+            <div class="fish">
+                <p>250</p>
+                <img src="images/fish5.png" alt="">
+                <p>40</p>
+            </div>
+
+            <div class="fish">
+                <p>600</p>
+                <img src="images/fish6right.png" alt="">
+                <p>50</p>
+            </div>
+
+            <p class="settings__p" >
+                You must have 1000 Points to win.
+            </p>
+
+            <button class="close-settings">
+                <img src="images/closeIcon.png" alt="">
+            </button>
+        </div>
+    </section>
+    <canvas class="canvas hide" width="1920" height="1080"></canvas>
+    <div class="score hide">0</div>
+    <button class="backToStart hide">
+        <img src="images/backIcon.png" alt="">
+    </button>
+    <h2 class="statement hide"></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>
