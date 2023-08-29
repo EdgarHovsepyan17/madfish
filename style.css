@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif;
+    overflow-y: hidden;
 }
 .canvas{
     position: absolute;
