@@ -82,7 +82,6 @@ body{
 }
 .settings{
     transition: 0.3s ease all;
-    /* max-height: 850px; */
     text-align: center;
     background-color: rgb(30, 101, 167);
     position: absolute;
@@ -105,11 +104,11 @@ body{
     justify-content: space-between;
 }
 .fish p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .fish img{
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
 }
 .settings__points{
     margin-inline:auto;
@@ -119,8 +118,8 @@ body{
     justify-content: space-between;
 }
 .settings__points__p{
-    font-size: 1.5rem;
-    width: 20%;
+    font-size: 1.25rem;
+    width: 25%;
 }
 .settings__h2{
     font-size: 3rem;
